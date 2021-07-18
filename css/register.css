@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-image: url(../img/login.png);
+}
+a {
+    text-decoration: none;
+}
+
+
+body {
+    position: absolute;
+    width: 364px;
+    height: 320px;
+    background-color:white;
+    margin-top: 140px;
+    margin-left: 586px;
+    /* margin: 140px auto; */
+}
+
+#login {
+    position: relative;
+    width: 364px;
+    height: 320px;
+    background-image: none;
+    background-color: #fff;
+}
+
+#form {
+    background-image: none;
+    background-color: #fff;
+}
+
+#sign {
+    display: inline-block;
+    width: 230px;
+    height: 45px;
+    background-color: #fff;
+    background-image: none;
+}
+
+#sign p {
+    display: inline-block;
+    text-align: center;
+    line-height: 45px;
+    width: 230px;
+    height: 45px;
+    background-color: #fff;
+    background-image: none;
+    color: #29B9C2;
+}
+
+#register{
+    display: inline-block;
+    width: 134px;
+    height: 45px;
+    margin-left: -5px;
+    background-image: none;
+}
+
+#register a {
+    display: inline-block;
+    text-align: center;
+    line-height: 45px;
+    width: 134px;
+    height: 45px;
+    background-color: #29B9C2;
+    color: #fff;
+    background-image: none;
+}
+
+#a_label {
+    display: block;
+    margin-left: 32px;
+    padding-bottom: 10px;
+    height: 40px;
+    line-height: 65px;
+    font-size: 6px;
+    font-weight: 700;
+    color: #B8B8B8;
+    background-color: #fff;
+    background-image: none;
+}
+#account{
+    display: block;
+    margin-left: 32px;
+    width: 290px;
+    height: 37px;
+    font-size: 22px;
+    font-weight: 300;
+    letter-spacing: 4px;
+    padding-top: 3px;
+    padding-left: 10px;
+    background-color: #EFEEF3;
+    background-image: none;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+#account:focus {
+    outline: medium solid #29B9C2;
+}
+
+#p_label {
+    display: block;
+    margin-left: 32px;
+    padding-bottom: 10px;
+    height: 30px;
+    line-height: 45px;
+    font-size: 6px;
+    font-weight: 700;
+    color: #B8B8B8;
+    background-color: #fff;
+    background-image: none;
+}
+#password {
+    display: block;
+    margin-left: 32px;
+    width: 290px;
+    height: 40px;
+    font-size: 22px;
+    letter-spacing: 4px;
+    padding-left: 10px;
+    background-color: #EFEEF3;
+    background-image: none; 
+    border: 0px;
+    outline: none;
+    border-radius: 5px;
+}
+
+#password:focus {
+    outline: medium solid #29B9C2;
+}
+
+#submit {
+    display: inline-block;
+    height: 40px;
+    width: 160px;
+    margin-top: 30px;
+    margin-left: 102px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 700;
+    background-color: #566D7F;
+    background-image: none;
+    border: 0px;
+    border-radius: 5px;
+}
+
+#submit:hover {
+    background-color: #29B9C2;
+}
+
