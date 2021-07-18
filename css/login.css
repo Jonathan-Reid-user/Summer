@@ -1,15 +1,9 @@
 * {
     padding: 0;
     margin: 0;
-    background-image: url(../img/login.png);    
+    background-image: url(../img/login.png);        
 }
 
-body {
-    position: absolute;
-    margin-top: 140px;
-    margin-left: 586px; 
-    /* margin: 140px auto; */
-}
 
 a {
     text-decoration: none;
@@ -21,10 +15,15 @@ a {
 }
 
 #login {
-    position: relative;
+    /* position: absolute; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     width: 364px;
     height: 320px;
-    /* margin: 140px auto; */
+    margin: auto;
 }
 
 #sign {

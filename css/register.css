@@ -8,20 +8,15 @@ a {
 }
 
 
-body {
+#login {
     position: absolute;
     width: 364px;
     height: 320px;
-    background-color:white;
-    margin-top: 140px;
-    margin-left: 586px;
-    /* margin: 140px auto; */
-}
-
-#login {
-    position: relative;
-    width: 364px;
-    height: 320px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
     background-image: none;
     background-color: #fff;
 }
